@@ -14,3 +14,4 @@ madlibsStory = (
     "so hopelessly dependent on the system, that they will fight to protect it."
 )
 # Print Story
+print(madlibsStory)
