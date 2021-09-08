@@ -3,7 +3,7 @@
 # Get User Input
 
 # Init Story
-story = (
+madlibsStory = (
     "The Matrix is a system, Neo. That system is our enemy. " +
     "But when you're inside, you look around, what do you see? " +
     "Businessmen, teachers, lawyers, carpenters. The very minds " +
