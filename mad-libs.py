@@ -12,7 +12,9 @@ profession = ["", "", "", ""]
 adj = ["", ""]
 
 # Get User Input
-
+print("Welcome user!")
+print("Let's play a game of madlibs!")
+neo = input("Please enter your name.\n")
 
 # Init Story
 madlibsStory = (
