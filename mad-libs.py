@@ -16,6 +16,9 @@ print("Welcome user!")
 print("Let's play a game of madlibs!")
 neo = input("Please enter your name.\n")
 
+print(f"Hello {neo}! Let's beign.")
+theMatrix = input("What is something you would like to know more about?")
+
 # Init Story
 madlibsStory = (
     f"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
