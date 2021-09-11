@@ -23,6 +23,7 @@ print(f"So you want to know more about {theMatrix}, do you?")
 print(f"First, tell me what you already know about {theMatrix}.")
 system = input(f"What noun would you best use to describe {theMatrix}?")
 
+enemy = input(f"Please provide me with another noun, in opposition to {system}.")
 # Init Story
 madlibsStory = (
     f"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
