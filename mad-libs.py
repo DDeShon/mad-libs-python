@@ -19,6 +19,10 @@ neo = input("Please enter your name.\n")
 print(f"Hello {neo}! Let's beign.")
 theMatrix = input("What is something you would like to know more about?")
 
+print(f"So you want to know more about {theMatrix}, do you?")
+print(f"First, tell me what you already know about {theMatrix}.")
+system = input(f"What noun would you best use to describe {theMatrix}?")
+
 # Init Story
 madlibsStory = (
     f"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
