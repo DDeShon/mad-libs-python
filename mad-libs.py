@@ -27,7 +27,12 @@ enemy = input(f"Please provide me with another noun, in opposition to {system}."
 
 inside = input(f"Please tell me your favorite place to relax.")
 
-profession[0] = input(f"What is the profession that you would most like to pursue?")
+print(f"What are the top 4 jobs that you would most like to have?")
+
+for i in range(len(profession)):
+    profession[i] = input(f"Profession {i + 1} / {len(profession)}: ")
+
+
 # Init Story
 madlibsStory = (
     f"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
