@@ -37,6 +37,11 @@ print(f"What are the top 4 jobs that you would most like to have?")
 for i in range(len(profession)):
     profession[i] = input(f"Profession {i + 1} / {len(profession)}: ")
 
+# Get save variable from user
+save = input(f"Now, please provide me with a verb to provide action for our story.")
+
+# Get unplugged variable from user
+unplugged = input(f"We're nearing the end now. Please give me another verb.")
 
 # Init Story
 madlibsStory = (
