@@ -16,17 +16,22 @@ print("Welcome user!")
 print("Let's play a game of madlibs!")
 neo = input("Please enter your name.\n")
 
+# Get theMatrix variable from user
 print(f"Hello {neo}! Let's beign.")
 theMatrix = input("What is something you would like to know more about?")
 
+# Get system variable from user
 print(f"So you want to know more about {theMatrix}, do you?")
 print(f"First, tell me what you already know about {theMatrix}.")
 system = input(f"What noun would you best use to describe {theMatrix}?")
 
+# Get enemy variable from user
 enemy = input(f"Please provide me with another noun, in opposition to {system}.")
 
+# Get inside variable from user
 inside = input(f"Please tell me your favorite place to relax.")
 
+# Get profession list from user
 print(f"What are the top 4 jobs that you would most like to have?")
 
 for i in range(len(profession)):
