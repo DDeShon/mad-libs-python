@@ -43,6 +43,15 @@ save = input(f"Now, please provide me with a verb to provide action for our stor
 # Get unplugged variable from user
 unplugged = input(f"We're nearing the end now. Please give me another verb.")
 
+# Get adjectives from user
+print(f"Please provide me with 2 descriptive adjectives.")
+
+for i in range(len(adj)):
+    adj[i] = input(f"Adjective {i + 1} / {len(adj)}: ")
+
+# Get fight variable from user
+fight = input(f"The end is finally here. Please provide one final verb, to wrap up the story.")
+
 # Init Story
 madlibsStory = (
     f"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +
