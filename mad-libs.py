@@ -26,7 +26,8 @@ print(f"First, tell me what you already know about {theMatrix}.")
 system = input(f"What noun would you best use to describe {theMatrix}?")
 
 # Get enemy variable from user
-enemy = input(f"Please provide me with another noun, in opposition to {system}.")
+enemy = input(
+    f"Please provide me with another noun, in opposition to {system}.")
 
 # Get inside variable from user
 inside = input(f"Please tell me your favorite place to relax.")
@@ -38,7 +39,8 @@ for i in range(len(profession)):
     profession[i] = input(f"Profession {i + 1} / {len(profession)}: ")
 
 # Get save variable from user
-save = input(f"Now, please provide me with a verb to provide action for our story.")
+save = input(
+    f"Now, please provide me with a verb to provide action for our story.")
 
 # Get unplugged variable from user
 unplugged = input(f"We're nearing the end now. Please give me another verb.")
@@ -50,7 +52,8 @@ for i in range(len(adj)):
     adj[i] = input(f"Adjective {i + 1} / {len(adj)}: ")
 
 # Get fight variable from user
-fight = input(f"The end is finally here. Please provide one final verb, to wrap up the story.")
+fight = input(
+    f"The end is finally here. Please provide one final verb, to wrap up the story.")
 
 # Init Story
 madlibsStory = (
