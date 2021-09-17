@@ -43,7 +43,7 @@ save = input(
     f"Now, please provide me with a verb to provide action for our story.\n")
 
 # Get unplugged variable from user
-unplugged = input(f"We're nearing the end now. Please give me another verb.\n")
+unplugged = input(f"We're nearing the end now. Please give me an opposing verb.\n")
 
 # Get adjectives from user
 print(f"Please provide me with 2 descriptive adjectives.")
